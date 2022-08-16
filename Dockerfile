@@ -1,2 +1,2 @@
 FROM nginx:alpine
-RUN echo "test" > /usr/share/nginx/html
+RUN echo "test" > /usr/share/nginx/html/index.html
