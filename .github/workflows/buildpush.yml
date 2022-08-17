@@ -28,5 +28,5 @@ jobs:
     uses: jayachandralingam/github-reusable-templates/.github/workflows/main.yml@main
     with:
       tags: ljcteach/testgitaction:latest1
-      username: "${{ secrets.DOCKER_LOGIN_USERNAME }}"
-      password: "${{ secrets.DOCKER_LOGIN_PASSWORD }}"
+      username: ljcteach
+      password: testing
