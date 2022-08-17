@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: Build
-        uses: jayachandralingam/github-reusable-templates@main
+        uses: jayachandralingam/github-reusable-templates/.github/workflows/main.yml@main
         with:
           tags: ljcteach/testgitaction:latest1
